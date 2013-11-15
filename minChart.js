@@ -111,6 +111,15 @@ function getMax(data, key) {
 
 }
 
+/**
+ * getMin 取得一个数组的最小值，若数组项为对象，将第二个参数key设置为目标字段
+ *
+ * @name getMin
+ * @function
+ * @param data [d1, d2, d3..] or [{data: d1}, {data: d2}, ...]
+ * @param key 要取值的字段
+ * @return 
+ */
 function getMin(data, key) {
 
     var i, res, key = key ? key : 'data';
